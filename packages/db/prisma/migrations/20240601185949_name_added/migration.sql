@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "User" ADD COLUMN     "name" TEXT,
+ALTER COLUMN "number" DROP DEFAULT,
+ALTER COLUMN "number" SET DATA TYPE TEXT;
