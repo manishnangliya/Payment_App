@@ -20,6 +20,9 @@ async function getP2PTransactions() {
             }
         }
     })
+
+
+    
     return txns.map(t => ({
         time: t.timestamp,
         amount: t.amount,
